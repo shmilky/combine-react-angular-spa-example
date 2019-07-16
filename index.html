@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>React/Angular Single SPA</title>
+
+  <style type="text/css">
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      height: 100vh;
+      width: 100vw;
+    }
+
+    #layout {
+      height: 100vh;
+      width: 100vw;
+    }
+
+    ul.side-nav-links li{
+      color: white;
+      list-style-type: none;
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+
+    ul.side-nav-links li a{
+      text-decoration: none;
+    }
+
+    ul.side-nav-links li a:visited{
+      color: white;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="layout"></div>
+  <!-- Load the application -->
+  <script src="/dist/common-dependencies.js"></script>
+  <script src="/dist/root-application.js"></script>
+</body>
+</html>
